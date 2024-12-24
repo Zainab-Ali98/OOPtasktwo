@@ -18,7 +18,7 @@ namespace OOPtasktwo.Models
             return a + b + c;
         }
 
-        public int Add(int a, int b, int c )
+        public int Add( int a, int b, int c )
         {
             return a + b + c  ;
         }
