@@ -12,21 +12,21 @@ Employee emp = new Employee();
 Console.WriteLine(" enter the first and second number");
 double a = Convert.ToDouble(Console.ReadLine());
 double b = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("the sum is : " + emp.Add(a, b));
+Console.WriteLine("the sum is: " + emp.Add(a, b));
 
 
 Console.WriteLine("enter the first , second and third numbers");
  a = Convert.ToDouble(Console.ReadLine());
  b = Convert.ToDouble(Console.ReadLine());
 double c = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("the sum is : " +emp.Add(a, b, c));
+Console.WriteLine("the sum is: " +emp.Add(a, b, c));
 
 
 Console.WriteLine("enter the first , second and third numbers");
 int x = Convert.ToInt32(Console.ReadLine());
 int y = Convert.ToInt32(Console.ReadLine());
 int z= Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("the sum is : " + emp.Add(x, y, z));
+Console.WriteLine("the sum is: " + emp.Add(x, y, z));
 
 
 Console.WriteLine("enter salary");
